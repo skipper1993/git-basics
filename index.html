@@ -23,10 +23,10 @@
  
         <div>
             <form action="/Comment/Add" method="post">
-                <div>
+                <p>
                     <label for="Name">Name</label>
                     <input id="Name" type="text" name="Name" ng-model="comment.Name" placeholder="Your Name" />
-                </div>
+                </p>
                 <div>
                     <label for="Email">Email</label>
                     <input id="Email" type="text" name="Email" ng-model="comment.Email" placeholder="Your Email" />
@@ -35,7 +35,7 @@
                     <label for="CommentBody">Comment</label>
                     <textarea id="CommentBody" name="CommentBody" ng-model="comment.CommentBody" placeholder="Your Comment"></textarea>
                 </div>
-                <button type="button" ng-click="addComment()">Send</button>
+                <butto type="button" ng-click="addComment()">Send</button>
             </form>
         </div>
  
